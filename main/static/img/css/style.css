@@ -1,0 +1,193 @@
+
+
+
+
+.jumbotron {
+    background-image: url(../jumbotron.png);
+    background-position: 0-370px;
+    background-size: cover;
+     font-size: 20px;
+     padding: 60px;
+     /* background-color: #677c80; */
+    
+     text-align: center;
+     color: rgb(255, 238, 6);
+  }
+  nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+ nav {
+    background-color: #07910e;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    display: inline;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+ }
+ nav a:hover {
+    font-weight: bold;
+ }
+h2 {
+    color: #000000
+ }
+
+ h3 {
+    color: #00a2c6
+}
+
+
+
+
+body{
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+    background-color: rgb(80, 216, 46);
+}
+
+
+
+button {
+    height: 50px;
+    margin: 2px;
+    font-size: 1.2em;
+    border-style: none;
+    /*background-color: #d6e0f5;*/
+}
+
+
+button:hover {
+    color: aliceblue;
+    background-color: #2952a3;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.calculator {
+    position: relative;
+    /* top: 150px; */
+    margin: 0 auto;
+    max-width: 300px;
+   
+}
+
+.calcButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:0 auto;
+    background-color: #193366;
+    padding: 10px;
+}
+
+.calcButtons > button:nth-child(17) {
+ 
+    grid-column: 1/3;
+}
+
+.operator {
+    background-color: #d6e0f5;
+}
+
+.number {
+    background-color: #7094db;
+}
+
+.userInput {
+    position: relative;
+    height: 80px;
+    max-width: 100%;
+    text-align: right;
+    padding: 10px;
+    font-size: 25px;
+    /*border: 1px solid #193366;*/
+    background-color: #d6e0f5;
+}
+
+
+
+.calcButtons > button:nth-child(19) {
+
+    background-color: lightgreen;
+}
+
+.userEntry {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 5px;
+    right:0;
+}
+
+.finalCalc{
+
+    position: absolute;
+    right:0;
+    margin:5px;
+    top:0;
+    padding:0;
+}
+
+
+.profile header {
+    text-align: center;
+ }
+
+ .profile p {
+   text-align: center;
+}
+
+ .profile a{
+   text-decoration: none;
+   color: #0532c9;
+   padding: 7px;
+   margin-bottom: 10px;
+ }
+ .profile a:hover {
+   font-weight: bold;
+}
+
+.peta {
+    width: 100%; 
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img {
+     width: 300px;
+     height: auto;
+}
+
+ .featured-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+   
+ }
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #07910e;
+    text-align: center;
+    font-weight: bold;
+}
+
+white-text-with-blue-shadow {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font: 1.5em Georgia, serif;
+}
